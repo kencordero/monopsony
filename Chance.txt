@@ -1,0 +1,32 @@
+Advance to Go: Collect $200
+g 0
+Advance to Illinois Ave.
+g 24
+Advance to St. Charles Place: If You Pass Go, Collect $200
+g 11
+Advance Token to Nearest Utilty: If UNOWNED you may buy it from the bank. If OWNED, throw dice and pay owner a total ten times the amount shown.
+g u
+Advance token to the nearest Railroad and pay owner Twice the Rental to which he/she is otherwise entitled. If Railroad is UNOWNED, you may buy it from the bank.
+g r
+Advance token to the nearest Railroad and pay owner Twice the Rental to which he/she is otherwise entitled. If Railroad is UNOWNED, you may buy it from the bank.
+g r
+Bank Pays You Dividend of $50
+m 50
+Get Out of Jail Free: This Card May Be Kept Until Needed, or Sold
+j 0
+Go Back 3 Spaces
+g -3
+Go Directly to Jail: Do Not Pass Go, Do Not Collect $200
+j 1
+Make General Repairs On All Your Property: For Each House Pay $25, For Each Hotel $100
+r 25, 100
+Pay Poor Tax of $15
+m -15
+Take a Ride on the Reading: If You Pass Go, Collect $200
+g 5
+Take a Walk on the Boardwalk: Advance token to Boardwalk
+g 39
+You Have Been Elected Chairman of the Board: Pay Each Player $50
+e -50
+Your Building and Loan Matures: Collect $150
+m 150
