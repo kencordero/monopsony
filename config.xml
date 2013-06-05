@@ -15,43 +15,43 @@
 		<space id="0" name="Go"/>
 		<space id="1" name="Mediterranean Ave."/>
 		<space id="2" name="Community Chest"/>
-		<space id="3" />
-		<space id="4" />
-		<space id="5" />
-		<space id="6" />
-		<space id="7" />
-		<space id="8" />
-		<space id="9" />
-		<space id="10" />
-		<space id="11" />
-		<space id="12" />
-		<space id="13" />
-		<space id="14" />
-		<space id="15" />
-		<space id="16" />
-		<space id="17" />
-		<space id="18" />
-		<space id="19" />
-		<space id="20" />
-		<space id="21" />
-		<space id="22" />
-		<space id="23" />
-		<space id="24" />
-		<space id="25" />
-		<space id="26" />
-		<space id="27" />
-		<space id="28" />
-		<space id="29" />
-		<space id="30" />
-		<space id="31" />
-		<space id="32" />
-		<space id="33" />
-		<space id="34" />
-		<space id="35" />
-		<space id="36" />
-		<space id="37" />
-		<space id="38" />
-		<space id="39" />		
+		<space id="3" name="Baltic Ave."/>
+		<space id="4" name="Income Tax"/>
+		<space id="5" name="Reading Railroad"/>
+		<space id="6" name="Oriental Ave."/>
+		<space id="7" name="Chance"/>
+		<space id="8" name="Vermont Ave."/>
+		<space id="9" name="Connecticut Ave."/>
+		<space id="10" name="In Jail/Just Visiting"/>
+		<space id="11" name="St. Charles Place"/>
+		<space id="12" name="Electric Company"/>
+		<space id="13" name="States Ave."/>
+		<space id="14" name="Virginia Ave."/>
+		<space id="15" name="Pennsylvania R.R."/>
+		<space id="16" name="St. James Place"/>
+		<space id="17" name="Community Chest"/>
+		<space id="18" name="Tennessee Ave."/>
+		<space id="19" name="New York Ave."/>
+		<space id="20" name="Free Parking"/>
+		<space id="21" name="Kentucky Ave."/>
+		<space id="22" name="Chance"/>
+		<space id="23" name="Indiana Ave."/>
+		<space id="24" name="Illinois Ave."/>
+		<space id="25" name="B&O Railroad"/>
+		<space id="26" name="Atlantic Ave."/>
+		<space id="27" name="Ventnor Ave."/>
+		<space id="28" name="Water Works"/>
+		<space id="29" name="Marvin Gardens"/>
+		<space id="30" name="Go To Jail"/>
+		<space id="31" name="Pacific Ave."/>
+		<space id="32" name="No. Carolina Ave."/>
+		<space id="33" name="Community Chest"/>
+		<space id="34" name="Pennsylvania Ave."/>
+		<space id="35" name="Short Line R.R."/>
+		<space id="36" name="Chance"/>
+		<space id="37" name="Park Place"/>
+		<space id="38" name="Luxury Tax"/>
+		<space id="39" name="Boardwalk"/>		
 	</spaces>
 	<chance>
 		<card name="Advance to Go: Collect $200">g 0</card>
@@ -71,4 +71,5 @@
 		<card name="You Have Been Elected Chairman of the Board: Pay Each Player $50">e -50</card>
 		<card name="Your Building and Loan Matures: Collect $150">m 150</card>
 	</chance>
+	<communityChest></communityChest>
 </xml>
