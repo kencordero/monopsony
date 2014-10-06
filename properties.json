@@ -1,0 +1,319 @@
+{ "properties":
+[
+    {"property": {
+        "space_id": 1,
+        "grouping": "brown",
+        "price": 60,
+        "rents": [
+            {"rent": 2},
+            {"with_1_house": 10},
+            {"with_2_houses": 30},
+            {"with_3_houses": 90},
+            {"with_4_houses": 160},
+            {"with_hotel": 250}           
+        ]        
+    }},
+    {"property": {
+        "space_id": 3,
+        "grouping": "brown",
+        "price": 60,
+        "rents": [
+            {"rent": 4},
+            {"with_1_house": 20},
+            {"with_2_houses": 60},
+            {"with_3_houses": 180},
+            {"with_4_houses": 320},
+            {"with_hotel": 450}
+        ]
+    }},
+    {"property": {
+        "space_id": 5,
+        "grouping": "railroad",   
+        "price": 200
+    }},
+    {"property": {
+        "space_id": 6,
+        "grouping": "light blue",
+        "price": 100,
+        "rents": [
+            {"rent": 6},
+            {"with_1_house": 30},
+            {"with_2_houses": 90},
+            {"with_3_houses": 270},
+            {"with_4_houses": 400},
+            {"with_hotel": 550}
+        ]
+    }},
+    {"property": {
+        "space_id": 8,
+        "grouping": "light blue",
+        "price": 100,
+        "rents": [
+            {"rent": 6},
+            {"with_1_house": 30},
+            {"with_2_houses": 90},
+            {"with_3_houses": 270},
+            {"with_4_houses": 400},
+            {"with_hotel": 550}
+        ]
+    }},
+    {"property": {
+        "space_id": 9,
+        "grouping": "light blue",
+        "price": 120,
+        "rents": [
+            {"rent": 8},
+            {"with_1_house": 40},
+            {"with_2_houses": 100},
+            {"with_3_houses": 300},
+            {"with_4_houses": 450},
+            {"with_hotel": 600}
+        ]
+    }},
+    {"property": {
+        "space_id": 11,
+        "grouping": "purple",
+        "price": 140,
+        "rents": [
+            {"rent": 10},
+            {"with_1_house": 50},
+            {"with_2_houses": 150},
+            {"with_3_houses": 450},
+            {"with_4_houses": 625},
+            {"with_hotel": 750}
+        ]
+    }},
+    {"property": {
+        "space_id": 12,
+        "grouping": "utility",
+        "price": 150
+    }},
+    {"property": {
+        "space_id": 13,
+        "grouping": "purple",
+        "price": 140,
+        "rents": [
+            {"rent": 10},
+            {"with_1_house": 50},
+            {"with_2_houses": 150},
+            {"with_3_houses": 450},
+            {"with_4_houses": 625},
+            {"with_hotel": 750}
+        ]
+    }},
+    {"property": {
+        "space_id": 14,
+        "grouping": "purple",
+        "price": 160,
+        "rents": [
+            {"rent": 12},
+            {"with_1_house": 60},
+            {"with_2_houses": 180},
+            {"with_3_houses": 500},
+            {"with_4_houses": 700},
+            {"with_hotel": 900}
+        ]
+    }},
+    {"property": {
+        "space_id": 15,
+        "grouping": "railroad",
+        "price": 200
+    }},
+    {"property": {
+        "space_id": 16,
+        "grouping": "orange",
+        "price": 180,
+        "rents": [
+            {"rent": 14},
+            {"with_1_house": 70},
+            {"with_2_houses": 200},
+            {"with_3_houses": 550},
+            {"with_4_houses": 750},
+            {"with_hotel": 950}
+        ]
+    }},
+    {"property": {
+        "space_id": 18,
+        "grouping": "orange",
+        "price": 180,
+        "rents": [
+            {"rent": 14},
+            {"with_1_house": 70},
+            {"with_2_houses": 200},
+            {"with_3_houses": 550},
+            {"with_4_houses": 750},
+            {"with_hotel": 950}
+        ]
+    }},
+    {"property": {
+        "space_id": 19,
+        "grouping": "orange",
+        "price": 200,
+        "rents": [
+            {"rent": 16},
+            {"with_1_house": 80},
+            {"with_2_houses": 220},
+            {"with_3_houses": 600},
+            {"with_4_houses": 800},
+            {"with_hotel": 1000}
+        ]
+    }},
+    {"property": {
+        "space_id": 21,
+        "grouping": "red",
+        "price": 220,
+        "rents": [
+            {"rent": 18},
+            {"with_1_house": 90},
+            {"with_2_houses": 250},
+            {"with_3_houses": 700},
+            {"with_4_houses": 875},
+            {"with_hotel": 1050}
+        ]
+    }},
+    {"property": {
+        "space_id": 23,
+        "grouping": "red",
+        "price": 220,
+        "rents": [
+            {"rent": 18},
+            {"with_1_house": 90},
+            {"with_2_houses": 250},
+            {"with_3_houses": 700},
+            {"with_4_houses": 875},
+            {"with_hotel": 1050}
+        ]
+    }},
+    {"property": {
+        "space_id": 24,
+        "grouping": "red",
+        "price": 240,
+        "rents": [
+            {"rent": 20},
+            {"with_1_house": 100},
+            {"with_2_houses": 300},
+            {"with_3_houses": 750},
+            {"with_4_houses": 925},
+            {"with_hotel": 1100}
+        ]
+    }},
+    {"property": {
+        "space_id": 25,
+        "grouping": "railroad",
+        "price": 200
+    }},
+    {"property": {
+        "space_id": 26,
+        "grouping": "yellow",
+        "price": 260,
+        "rents": [
+            {"rent": 22},
+            {"with_1_house": 110},
+            {"with_2_houses": 330},
+            {"with_3_houses": 800},
+            {"with_4_houses": 975},
+            {"with_hotel": 1150}
+        ]
+    }},
+    {"property": {
+        "space_id": 27,
+        "grouping": "yellow",
+        "price": 260,
+        "rents": [
+            {"rent": 22},
+            {"with_1_house": 110},
+            {"with_2_houses": 330},
+            {"with_3_houses": 800},
+            {"with_4_houses": 975},
+            {"with_hotel": 1150}
+        ]
+    }},
+    {"property": {
+        "space_id": 28,
+        "grouping": "utility",
+        "price": 150
+    }},
+    {"property": {
+        "space_id": 29,
+        "grouping": "yellow",
+        "price": 280,
+        "rents": [
+            {"rent": 24},
+            {"with_1_house": 120},
+            {"with_2_houses": 360},
+            {"with_3_houses": 850},
+            {"with_4_houses": 1025},
+            {"with_hotel": 1200}
+        ]
+    }},
+    {"property": {
+        "space_id": 31,
+        "grouping": "green",
+        "price": 300,
+        "rents": [
+            {"rent": 26},
+            {"with_1_house": 130},
+            {"with_2_houses": 390},
+            {"with_3_houses": 900},
+            {"with_4_houses": 1100},
+            {"with_hotel": 1275}
+        ]
+    }},
+    {"property": {
+        "space_id": 32,
+        "grouping": "green",
+        "price": 300,
+        "rents": [
+            {"rent": 26},
+            {"with_1_house": 130},
+            {"with_2_houses": 390},
+            {"with_3_houses": 900},
+            {"with_4_houses": 1100},
+            {"with_hotel": 1275}
+        ]
+    }},
+    {"property": {
+        "space_id": 34,
+        "grouping": "green",
+        "price": 320,
+        "rents": [
+            {"rent": 28},
+            {"with_1_house": 150},
+            {"with_2_houses": 450},
+            {"with_3_houses": 1000},
+            {"with_4_houses": 1200},
+            {"with_hotel": 1400}
+        ]
+    }},
+    {"property": {
+        "space_id": 35,
+        "grouping": "railroad",
+        "price": 200
+    }},
+    {"property": {
+        "space_id": 37,
+        "grouping": "blue",
+        "price": 350,
+        "rents": [
+            {"rent": 35},
+            {"with_1_house": 175},
+            {"with_2_houses": 500},
+            {"with_3_houses": 1100},
+            {"with_4_houses": 1300},
+            {"with_hotel": 1500}
+        ]
+    }},
+    {"property": {
+        "space_id": 39,
+        "grouping": "blue",
+        "price": 400,
+        "rents": [
+            {"rent": 50},
+            {"with_1_house": 200},
+            {"with_2_houses": 600},
+            {"with_3_houses": 1400},
+            {"with_4_houses": 1700},
+            {"with_hotel": 2000}
+        ]
+    }}
+]}

@@ -10,21 +10,21 @@ class Property(object):
         self._isOwned = False
 
 class Player(object):
-	def __init__(self):
-		self.props = []
-		self.money = 1500
+    def __init__(self):
+        self.props = []
+        self.money = 1500
 
 class GameBoard(object):
-	
+    pass
 
 def setup_pieces():
-  pcsFile = open("pieces.txt", "r")
-  pieces=[]
-  for piece in pcsFile:
-    piece = piece.strip()
-    pieces.append(piece)
-  shuffle(pieces)  
-  pcsFile.close()
+    pcsFile = open("pieces.txt", "r")
+    pieces=[]
+    for piece in pcsFile:
+        piece = piece.strip()
+        pieces.append(piece)
+    shuffle(pieces)  
+    pcsFile.close()
 
 def setup_spaces():
   spaces = []
