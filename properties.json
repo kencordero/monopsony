@@ -1,19 +1,19 @@
 { "properties":
 [
-    {"property": {
+    {"Mediterranean Ave.": {
         "space_id": 1,
         "grouping": "brown",
         "price": 60,
-        "rents": [
-            {"rent": 2},
-            {"with_1_house": 10},
-            {"with_2_houses": 30},
-            {"with_3_houses": 90},
-            {"with_4_houses": 160},
-            {"with_hotel": 250}           
-        ]        
+        "rents": {
+            "rent": 2,
+            "with_1_house": 10,
+            "with_2_houses": 30,
+            "with_3_houses": 90,
+            "with_4_houses": 160,
+            "with_hotel": 250           
+        }
     }},
-    {"property": {
+    {"Baltic Ave.": {
         "space_id": 3,
         "grouping": "brown",
         "price": 60,
@@ -26,12 +26,12 @@
             {"with_hotel": 450}
         ]
     }},
-    {"property": {
+    {"Reading Railroad": {
         "space_id": 5,
         "grouping": "railroad",   
         "price": 200
     }},
-    {"property": {
+    {"Oriental Ave.": {
         "space_id": 6,
         "grouping": "light blue",
         "price": 100,
@@ -44,7 +44,7 @@
             {"with_hotel": 550}
         ]
     }},
-    {"property": {
+    {"Vermont Ave.": {
         "space_id": 8,
         "grouping": "light blue",
         "price": 100,
@@ -57,7 +57,7 @@
             {"with_hotel": 550}
         ]
     }},
-    {"property": {
+    {"Connecticut Ave.": {
         "space_id": 9,
         "grouping": "light blue",
         "price": 120,
@@ -70,7 +70,7 @@
             {"with_hotel": 600}
         ]
     }},
-    {"property": {
+    {"St. Charles Place": {
         "space_id": 11,
         "grouping": "purple",
         "price": 140,
@@ -83,12 +83,12 @@
             {"with_hotel": 750}
         ]
     }},
-    {"property": {
+    {"Electric Company": {
         "space_id": 12,
         "grouping": "utility",
         "price": 150
     }},
-    {"property": {
+    {"States Ave.": {
         "space_id": 13,
         "grouping": "purple",
         "price": 140,
@@ -101,7 +101,7 @@
             {"with_hotel": 750}
         ]
     }},
-    {"property": {
+    {"Virginia Ave.": {
         "space_id": 14,
         "grouping": "purple",
         "price": 160,
@@ -114,12 +114,12 @@
             {"with_hotel": 900}
         ]
     }},
-    {"property": {
+    {"Pennsylvania R.R.": {
         "space_id": 15,
         "grouping": "railroad",
         "price": 200
     }},
-    {"property": {
+    {"St. James Place": {
         "space_id": 16,
         "grouping": "orange",
         "price": 180,
@@ -132,7 +132,7 @@
             {"with_hotel": 950}
         ]
     }},
-    {"property": {
+    {"Tennessee Ave.": {
         "space_id": 18,
         "grouping": "orange",
         "price": 180,
@@ -145,7 +145,7 @@
             {"with_hotel": 950}
         ]
     }},
-    {"property": {
+    {"New York Ave.": {
         "space_id": 19,
         "grouping": "orange",
         "price": 200,
@@ -158,7 +158,7 @@
             {"with_hotel": 1000}
         ]
     }},
-    {"property": {
+    {"Kentucky Ave.": {
         "space_id": 21,
         "grouping": "red",
         "price": 220,
@@ -171,7 +171,7 @@
             {"with_hotel": 1050}
         ]
     }},
-    {"property": {
+    {"Indiana Ave.": {
         "space_id": 23,
         "grouping": "red",
         "price": 220,
@@ -184,7 +184,7 @@
             {"with_hotel": 1050}
         ]
     }},
-    {"property": {
+    {"Illinois Ave.": {
         "space_id": 24,
         "grouping": "red",
         "price": 240,
@@ -197,12 +197,12 @@
             {"with_hotel": 1100}
         ]
     }},
-    {"property": {
+    {"B&O Railroad": {
         "space_id": 25,
         "grouping": "railroad",
         "price": 200
     }},
-    {"property": {
+    {"Atlantic Ave.": {
         "space_id": 26,
         "grouping": "yellow",
         "price": 260,
@@ -215,7 +215,7 @@
             {"with_hotel": 1150}
         ]
     }},
-    {"property": {
+    {"Ventnor Ave.": {
         "space_id": 27,
         "grouping": "yellow",
         "price": 260,
@@ -228,12 +228,12 @@
             {"with_hotel": 1150}
         ]
     }},
-    {"property": {
+    {"Water Works": {
         "space_id": 28,
         "grouping": "utility",
         "price": 150
     }},
-    {"property": {
+    {"Marvin Gardens": {
         "space_id": 29,
         "grouping": "yellow",
         "price": 280,
@@ -246,7 +246,7 @@
             {"with_hotel": 1200}
         ]
     }},
-    {"property": {
+    {"Pacific Ave.": {
         "space_id": 31,
         "grouping": "green",
         "price": 300,
@@ -259,7 +259,7 @@
             {"with_hotel": 1275}
         ]
     }},
-    {"property": {
+    {"No. Carolina Ave.": {
         "space_id": 32,
         "grouping": "green",
         "price": 300,
@@ -272,7 +272,7 @@
             {"with_hotel": 1275}
         ]
     }},
-    {"property": {
+    {"Pennsylvania Ave.": {
         "space_id": 34,
         "grouping": "green",
         "price": 320,
@@ -285,12 +285,12 @@
             {"with_hotel": 1400}
         ]
     }},
-    {"property": {
+    {"Short Line R.R.": {
         "space_id": 35,
         "grouping": "railroad",
         "price": 200
     }},
-    {"property": {
+    {"Park Place": {
         "space_id": 37,
         "grouping": "blue",
         "price": 350,
@@ -303,7 +303,7 @@
             {"with_hotel": 1500}
         ]
     }},
-    {"property": {
+    {"Boardwalk": {
         "space_id": 39,
         "grouping": "blue",
         "price": 400,
