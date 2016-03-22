@@ -1,319 +1,346 @@
-{ "properties":
-[
-    {"Mediterranean Ave.": {
+{ "properties": [
+    {
+        "name": "Mediterranean Ave.",
         "space_id": 1,
         "grouping": "brown",
         "price": 60,
-        "rents": {
-            "rent": 2,
+        "rent": {
+            "original": 2,
             "with_1_house": 10,
             "with_2_houses": 30,
             "with_3_houses": 90,
             "with_4_houses": 160,
-            "with_hotel": 250           
+            "with_hotel": 250
         }
-    }},
-    {"Baltic Ave.": {
+    },
+    {
+        "name": "Baltic Ave.",
         "space_id": 3,
         "grouping": "brown",
         "price": 60,
-        "rents": [
-            {"rent": 4},
-            {"with_1_house": 20},
-            {"with_2_houses": 60},
-            {"with_3_houses": 180},
-            {"with_4_houses": 320},
-            {"with_hotel": 450}
-        ]
-    }},
-    {"Reading Railroad": {
+        "rent": {
+            "original": 4,
+            "with_1_house": 20,
+            "with_2_houses": 60,
+            "with_3_houses": 180,
+            "with_4_houses": 320,
+            "with_hotel": 450
+        }
+    },
+    {
+        "name": "Reading Railroad",
         "space_id": 5,
-        "grouping": "railroad",   
+        "grouping": "railroad",
         "price": 200
-    }},
-    {"Oriental Ave.": {
+    },
+    {
+        "name": "Oriental Ave.",
         "space_id": 6,
         "grouping": "light blue",
         "price": 100,
-        "rents": [
-            {"rent": 6},
-            {"with_1_house": 30},
-            {"with_2_houses": 90},
-            {"with_3_houses": 270},
-            {"with_4_houses": 400},
-            {"with_hotel": 550}
-        ]
-    }},
-    {"Vermont Ave.": {
+        "rent": {
+            "original": 6,
+            "with_1_house": 30,
+            "with_2_houses": 90,
+            "with_3_houses": 270,
+            "with_4_houses": 400,
+            "with_hotel": 550
+        }
+    },
+    {
+        "name": "Vermont Ave.",
         "space_id": 8,
         "grouping": "light blue",
         "price": 100,
-        "rents": [
-            {"rent": 6},
-            {"with_1_house": 30},
-            {"with_2_houses": 90},
-            {"with_3_houses": 270},
-            {"with_4_houses": 400},
-            {"with_hotel": 550}
-        ]
-    }},
-    {"Connecticut Ave.": {
+        "rent": {
+            "original": 6,
+            "with_1_house": 30,
+            "with_2_houses": 90,
+            "with_3_houses": 270,
+            "with_4_houses": 400,
+            "with_hotel": 550
+        }
+    },
+    {
+        "name": "Connecticut Ave.",
         "space_id": 9,
         "grouping": "light blue",
         "price": 120,
-        "rents": [
-            {"rent": 8},
-            {"with_1_house": 40},
-            {"with_2_houses": 100},
-            {"with_3_houses": 300},
-            {"with_4_houses": 450},
-            {"with_hotel": 600}
-        ]
-    }},
-    {"St. Charles Place": {
+        "rent": {
+            "original": 8,
+            "with_1_house": 40,
+            "with_2_houses": 100,
+            "with_3_houses": 300,
+            "with_4_houses": 450,
+            "with_hotel": 600
+        }
+    },
+    {
+        "name": "St. Charles Place",
         "space_id": 11,
         "grouping": "purple",
         "price": 140,
-        "rents": [
-            {"rent": 10},
-            {"with_1_house": 50},
-            {"with_2_houses": 150},
-            {"with_3_houses": 450},
-            {"with_4_houses": 625},
-            {"with_hotel": 750}
-        ]
-    }},
-    {"Electric Company": {
+        "rent": {
+            "original": 10,
+            "with_1_house": 50,
+            "with_2_houses": 150,
+            "with_3_houses": 450,
+            "with_4_houses": 625,
+            "with_hotel": 750
+        }
+    },
+    {
+        "name": "Electric Company",
         "space_id": 12,
         "grouping": "utility",
         "price": 150
-    }},
-    {"States Ave.": {
+    },
+    {
+        "name": "States Ave.",
         "space_id": 13,
         "grouping": "purple",
         "price": 140,
-        "rents": [
-            {"rent": 10},
-            {"with_1_house": 50},
-            {"with_2_houses": 150},
-            {"with_3_houses": 450},
-            {"with_4_houses": 625},
-            {"with_hotel": 750}
-        ]
-    }},
-    {"Virginia Ave.": {
+        "rent": {
+            "original": 10,
+            "with_1_house": 50,
+            "with_2_houses": 150,
+            "with_3_houses": 450,
+            "with_4_houses": 625,
+            "with_hotel": 750
+        }
+    },
+    {
+        "name": "Virginia Ave.",
         "space_id": 14,
         "grouping": "purple",
         "price": 160,
-        "rents": [
-            {"rent": 12},
-            {"with_1_house": 60},
-            {"with_2_houses": 180},
-            {"with_3_houses": 500},
-            {"with_4_houses": 700},
-            {"with_hotel": 900}
-        ]
-    }},
-    {"Pennsylvania R.R.": {
+        "rent": {
+            "original": 12,
+            "with_1_house": 60,
+            "with_2_houses": 180,
+            "with_3_houses": 500,
+            "with_4_houses": 700,
+            "with_hotel": 900
+        }
+    },
+    {
+        "name": "Pennsylvania R.R.",
         "space_id": 15,
         "grouping": "railroad",
         "price": 200
-    }},
-    {"St. James Place": {
+    },
+    {
+        "name": "St. James Place",
         "space_id": 16,
         "grouping": "orange",
         "price": 180,
-        "rents": [
-            {"rent": 14},
-            {"with_1_house": 70},
-            {"with_2_houses": 200},
-            {"with_3_houses": 550},
-            {"with_4_houses": 750},
-            {"with_hotel": 950}
-        ]
-    }},
-    {"Tennessee Ave.": {
+        "rent": {
+            "original": 14,
+            "with_1_house": 70,
+            "with_2_houses": 200,
+            "with_3_houses": 550,
+            "with_4_houses": 750,
+            "with_hotel": 950
+        }
+    },
+    {
+        "name": "Tennessee Ave.",
         "space_id": 18,
         "grouping": "orange",
         "price": 180,
-        "rents": [
-            {"rent": 14},
-            {"with_1_house": 70},
-            {"with_2_houses": 200},
-            {"with_3_houses": 550},
-            {"with_4_houses": 750},
-            {"with_hotel": 950}
-        ]
-    }},
-    {"New York Ave.": {
+        "rent": {
+            "original": 14,
+            "with_1_house": 70,
+            "with_2_houses": 200,
+            "with_3_houses": 550,
+            "with_4_houses": 750,
+            "with_hotel": 950
+        }
+    },
+    {
+        "name": "New York Ave.",
         "space_id": 19,
         "grouping": "orange",
         "price": 200,
-        "rents": [
-            {"rent": 16},
-            {"with_1_house": 80},
-            {"with_2_houses": 220},
-            {"with_3_houses": 600},
-            {"with_4_houses": 800},
-            {"with_hotel": 1000}
-        ]
-    }},
-    {"Kentucky Ave.": {
+        "rent": {
+            "original": 16,
+            "with_1_house": 80,
+            "with_2_houses": 220,
+            "with_3_houses": 600,
+            "with_4_houses": 800,
+            "with_hotel": 1000
+        }
+    },
+    {
+        "name": "Kentucky Ave.",
         "space_id": 21,
         "grouping": "red",
         "price": 220,
-        "rents": [
-            {"rent": 18},
-            {"with_1_house": 90},
-            {"with_2_houses": 250},
-            {"with_3_houses": 700},
-            {"with_4_houses": 875},
-            {"with_hotel": 1050}
-        ]
-    }},
-    {"Indiana Ave.": {
+        "rent": {
+            "original": 18,
+            "with_1_house": 90,
+            "with_2_houses": 250,
+            "with_3_houses": 700,
+            "with_4_houses": 875,
+            "with_hotel": 1050
+        }
+    },
+    {
+        "name": "Indiana Ave.",
         "space_id": 23,
         "grouping": "red",
         "price": 220,
-        "rents": [
-            {"rent": 18},
-            {"with_1_house": 90},
-            {"with_2_houses": 250},
-            {"with_3_houses": 700},
-            {"with_4_houses": 875},
-            {"with_hotel": 1050}
-        ]
-    }},
-    {"Illinois Ave.": {
+        "rent": {
+            "original": 18,
+            "with_1_house": 90,
+            "with_2_houses": 250,
+            "with_3_houses": 700,
+            "with_4_houses": 875,
+            "with_hotel": 1050
+        }
+    },
+    {
+        "name": "Illinois Ave.",
         "space_id": 24,
         "grouping": "red",
         "price": 240,
-        "rents": [
-            {"rent": 20},
-            {"with_1_house": 100},
-            {"with_2_houses": 300},
-            {"with_3_houses": 750},
-            {"with_4_houses": 925},
-            {"with_hotel": 1100}
-        ]
-    }},
-    {"B&O Railroad": {
+        "rent": {
+            "original": 20,
+            "with_1_house": 100,
+            "with_2_houses": 300,
+            "with_3_houses": 750,
+            "with_4_houses": 925,
+            "with_hotel": 1100
+        }
+    },
+    {
+        "name": "B&O Railroad",
         "space_id": 25,
         "grouping": "railroad",
         "price": 200
-    }},
-    {"Atlantic Ave.": {
+    },
+    {
+        "name": "Atlantic Ave.",
         "space_id": 26,
         "grouping": "yellow",
         "price": 260,
-        "rents": [
-            {"rent": 22},
-            {"with_1_house": 110},
-            {"with_2_houses": 330},
-            {"with_3_houses": 800},
-            {"with_4_houses": 975},
-            {"with_hotel": 1150}
-        ]
-    }},
-    {"Ventnor Ave.": {
+        "rent": {
+            "original": 22,
+            "with_1_house": 110,
+            "with_2_houses": 330,
+            "with_3_houses": 800,
+            "with_4_houses": 975,
+            "with_hotel": 1150
+        }
+    },
+    {
+        "name": "Ventnor Ave.",
         "space_id": 27,
         "grouping": "yellow",
         "price": 260,
-        "rents": [
-            {"rent": 22},
-            {"with_1_house": 110},
-            {"with_2_houses": 330},
-            {"with_3_houses": 800},
-            {"with_4_houses": 975},
-            {"with_hotel": 1150}
-        ]
-    }},
-    {"Water Works": {
+        "rent": {
+            "original": 22,
+            "with_1_house": 110,
+            "with_2_houses": 330,
+            "with_3_houses": 800,
+            "with_4_houses": 975,
+            "with_hotel": 1150
+        }
+    },
+    {
+        "name": "Water Works",
         "space_id": 28,
         "grouping": "utility",
         "price": 150
-    }},
-    {"Marvin Gardens": {
+    },
+    {
+        "name": "Marvin Gardens",
         "space_id": 29,
         "grouping": "yellow",
         "price": 280,
-        "rents": [
-            {"rent": 24},
-            {"with_1_house": 120},
-            {"with_2_houses": 360},
-            {"with_3_houses": 850},
-            {"with_4_houses": 1025},
-            {"with_hotel": 1200}
-        ]
-    }},
-    {"Pacific Ave.": {
+        "rent": {
+            "original": 24,
+            "with_1_house": 120,
+            "with_2_houses": 360,
+            "with_3_houses": 850,
+            "with_4_houses": 1025,
+            "with_hotel": 1200
+        }
+    },
+    {
+        "name": "Pacific Ave.",
         "space_id": 31,
         "grouping": "green",
         "price": 300,
-        "rents": [
-            {"rent": 26},
-            {"with_1_house": 130},
-            {"with_2_houses": 390},
-            {"with_3_houses": 900},
-            {"with_4_houses": 1100},
-            {"with_hotel": 1275}
-        ]
-    }},
-    {"No. Carolina Ave.": {
+        "rent": {
+            "original": 26,
+            "with_1_house": 130,
+            "with_2_houses": 390,
+            "with_3_houses": 900,
+            "with_4_houses": 1100,
+            "with_hotel": 1275
+        }
+    },
+    {
+        "name": "No. Carolina Ave.",
         "space_id": 32,
         "grouping": "green",
         "price": 300,
-        "rents": [
-            {"rent": 26},
-            {"with_1_house": 130},
-            {"with_2_houses": 390},
-            {"with_3_houses": 900},
-            {"with_4_houses": 1100},
-            {"with_hotel": 1275}
-        ]
-    }},
-    {"Pennsylvania Ave.": {
+        "rent": {
+            "original": 26,
+            "with_1_house": 130,
+            "with_2_houses": 390,
+            "with_3_houses": 900,
+            "with_4_houses": 1100,
+            "with_hotel": 1275
+        }
+    },
+    {
+        "name": "Pennsylvania Ave.",
         "space_id": 34,
         "grouping": "green",
         "price": 320,
-        "rents": [
-            {"rent": 28},
-            {"with_1_house": 150},
-            {"with_2_houses": 450},
-            {"with_3_houses": 1000},
-            {"with_4_houses": 1200},
-            {"with_hotel": 1400}
-        ]
-    }},
-    {"Short Line R.R.": {
+        "rent": {
+            "original": 28,
+            "with_1_house": 150,
+            "with_2_houses": 450,
+            "with_3_houses": 1000,
+            "with_4_houses": 1200,
+            "with_hotel": 1400
+        }
+    },
+    {
+        "name": "Short Line R.R.",
         "space_id": 35,
         "grouping": "railroad",
         "price": 200
-    }},
-    {"Park Place": {
+    },
+    {
+        "name": "Park Place",
         "space_id": 37,
         "grouping": "blue",
         "price": 350,
-        "rents": [
-            {"rent": 35},
-            {"with_1_house": 175},
-            {"with_2_houses": 500},
-            {"with_3_houses": 1100},
-            {"with_4_houses": 1300},
-            {"with_hotel": 1500}
-        ]
-    }},
-    {"Boardwalk": {
+        "rent": {
+            "original": 35,
+            "with_1_house": 175,
+            "with_2_houses": 500,
+            "with_3_houses": 1100,
+            "with_4_houses": 1300,
+            "with_hotel": 1500
+        }
+    },
+    {
+        "name": "Boardwalk",
         "space_id": 39,
         "grouping": "blue",
         "price": 400,
-        "rents": [
-            {"rent": 50},
-            {"with_1_house": 200},
-            {"with_2_houses": 600},
-            {"with_3_houses": 1400},
-            {"with_4_houses": 1700},
-            {"with_hotel": 2000}
-        ]
-    }}
+        "rent": {
+            "original": 50,
+            "with_1_house": 200,
+            "with_2_houses": 600,
+            "with_3_houses": 1400,
+            "with_4_houses": 1700,
+            "with_hotel": 2000
+        }
+    }
 ]}
