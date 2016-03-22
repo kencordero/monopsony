@@ -1,0 +1,67 @@
+{ "cards": [
+    {
+      "text": "Advance to Go: Collect $200",
+      "net": 200
+    },
+    {
+      "text": "Bank Error in Your Favor: Collect $200",
+      "net": 200
+    },
+    {
+      "text": "Doctor's Fee: Pay $50",
+      "net": -50
+    },
+    {
+      "text": "From Sale of Stock You Get $45",
+      "net": 45
+    },
+    {
+      "text": "Get Out of Jail Free: This Card May Be Kept Until Needed, or Sold",
+      "isReleasedFromJail": true
+    },
+    {
+      "text": "Go to Jail: Go Directly to Jail, Do Not Pass Go, Do Not Collect $200",
+      "isJailed": true
+    },
+    {
+      "text": "Grand Opera Opening: Collect $50 from every player for Opening Night Seats",
+      "collectFromEveryPlayer": 50
+    },
+    {
+      "text": "Income Tax Refund: Collect $20",
+      "net": 20
+    },
+    {
+      "text": "Life Insurance Matures: Collect $100",
+      "net": 100
+    },
+    {
+      "text": "Pay Hospital $100",
+      "net": -100
+    },
+    {
+      "text": "Pay School Tax of $150",
+      "net": -150
+    },
+    {
+      "text": "Receive for Services $25",
+      "net": 25
+    },
+    {
+      "text": "XMas Fund Matures: Collect $100",
+      "net": 100
+    },
+    {
+      "text": "You Are Assessed For Street Repairs: $40 per House, $115 per Hotel",
+      "costPerHouse": 40,
+      "costPerHotel": 115
+    },
+    {
+      "text": "You Have Won Second Prize in a Beauty Contest: Collect $10",
+      "net": 10
+    },
+    {
+      "text": "You Inherit $100",
+      "net": 100
+    }
+]}

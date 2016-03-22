@@ -1,14 +1,12 @@
-{ "pieces":
-[ 
-    {"piece": {"name": "Battleship" }},
-    {"piece": {"name": "Cannon" }},
-    {"piece": {"name": "Car" }},
-    {"piece": {"name": "Dog" }},
-    {"piece": {"name": "Horse and rider" }},
-    {"piece": {"name": "Iron" }},
-    {"piece": {"name": "Shoe" }},
-    {"piece": {"name": "Thimble" }},
-    {"piece": {"name": "Top hat" }},
-    {"piece": {"name": "Wheelbarrow" }}
-]
-}
+{ "pieces": [
+    {"name": "Battleship" },
+    {"name": "Cannon" },
+    {"name": "Car" },
+    {"name": "Dog" },
+    {"name": "Horse and rider" },
+    {"name": "Iron" },
+    {"name": "Shoe" },
+    {"name": "Thimble" },
+    {"name": "Top hat" },
+    {"name": "Wheelbarrow" }
+]}
