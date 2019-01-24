@@ -1,0 +1,69 @@
+{ "cards": [
+    {
+        "text": "Advance to Go: Collect $200",
+        "moveTo": "Go"
+    },
+    {
+        "text": "Advance to Illinois Ave.",
+        "moveTo": "Illinois Ave."
+    },
+    {
+        "text": "Advance to St. Charles Place: If You Pass Go, Collect $200",
+        "moveTo": "St. Charles Place"
+    },
+    {
+        "text": "Advance Token to Nearest Utilty: If UNOWNED you may buy it from the bank. If OWNED, throw dice and pay owner a total ten times the amount shown.",
+        "moveToNearest": "Utility"
+    },
+    {
+        "text": "Advance token to the nearest Railroad and pay owner Twice the Rental to which he/she is otherwise entitled. If Railroad is UNOWNED, you may buy it from the bank.",
+        "moveToNearest": "Railroad",
+        "rentMultiplier": 2
+    },
+    {
+        "text": "Advance token to the nearest Railroad and pay owner Twice the Rental to which he/she is otherwise entitled. If Railroad is UNOWNED, you may buy it from the bank.",
+        "moveToNearest": "Railroad",
+        "rentMultiplier": 2
+    },
+    {
+        "text": "Bank Pays You Dividend of $50",
+        "net": 50
+    },
+    {
+        "text": "Get Out of Jail Free: This Card May Be Kept Until Needed, or Sold",
+        "isReleasedFromJail": true
+    },
+    {
+        "text": "Go Back 3 Spaces",
+        "move": -3
+    },
+    {
+        "text": "Go Directly to Jail: Do Not Pass Go, Do Not Collect $200",
+        "isJailed": true
+    },
+    {
+        "text": "Make General Repairs On All Your Property: For Each House Pay $25, For Each Hotel $100",
+        "costPerHouse": 25,
+        "costPerHotel": 100
+    },
+    {
+        "text": "Pay Poor Tax of $15",
+        "net": -15
+    },
+    {
+        "text": "Take a Ride on the Reading: If You Pass Go, Collect $200",
+        "moveTo": "Reading Railroad"
+    },
+    {
+        "text": "Take a Walk on the Boardwalk: Advance token to Boardwalk",
+        "moveTo": "Boardwalk"
+    },
+    {
+        "text": "You Have Been Elected Chairman of the Board: Pay Each Player $50",
+        "payEachPlayer": 50
+    },
+    {
+        "text": "Your Building and Loan Matures: Collect $150",
+        "net": 150
+    }
+]}
