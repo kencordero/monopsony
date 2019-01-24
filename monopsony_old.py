@@ -1,7 +1,8 @@
 # Monopsony - Python implementation
+import json
 from random import randint, shuffle
 
-#noOfPlayers = int(raw_input('How many players? (2-8) ')) 
+#noOfPlayers = int(raw_input('How many players? (2-8) '))
 NUMBER_OF_PLAYERS = 10
 
 class Property(object):
@@ -18,87 +19,47 @@ class GameBoard(object):
     pass
 
 def setup_pieces():
-    pcsFile = open("pieces.txt", "r")
-    pieces=[]
-    for piece in pcsFile:
-        piece = piece.strip()
-        pieces.append(piece)
-    shuffle(pieces)  
-    pcsFile.close()
+    pcsFile = 'pieces.json'
+    with open(pcsFile) as f:
+        data = json.load(f)
+    pieces = data['pieces']
+    shuffle(pieces)
 
 def setup_spaces():
-  spaces = []
-  spcFile = open("spaces.txt", "r")
-  for space in spcFile:
-    space = space.strip()
-    spaces.append(space)
-  spcFile.close()
-  
+    spcFile = 'spaces.json'
+    with open(spcFile) as f:
+        data = json.load(f)
+    spaces = data['spaces']
+
 def setup_CommunityChest():
-  CCfile = open("Community Chest.txt", "r")
-  CommChest = dict()
-  i = 0
-  for item in CCfile:
-    item = item.strip()
-    CommChest[item] = i
-    i += 1
-  CCfile.close()
-  CC = CommChest.keys()
-  shuffle(CC)
+    CCfile = "community_chest.json"
+    with open(CCfile) as f:
+        data = json.load(f)
+    CC = data['cards']
+    shuffle(CC)
 
 def setup_Chance():
-  Cfile = open("Chance.txt", "r")
-  Chance = dict()
+  chanceFile = "Chance.txt"
+  chanceCards = dict()
   i = 0
-  for item in Cfile:
-    item = item.strip()
-    Chance[item] = i
-    i += 1
-  Cfile.close()
-  C = Chance.keys()
+  with open(chanceFile) as f:
+    for item in f:
+      item = item.strip()
+      chanceCards[item] = i
+      i += 1
+  C = chanceCards.keys()
   shuffle(C)
 
-
-
-props = []
-#for i in xrange(40):
-#  props.append(Property())
-  
 def load_properties():
-    propFile = open("properties.txt", "r")
+    propFile = "properties.json"
     i = 0
-    for item in propFile:
-        props.append(Property())
-        item = item.strip()
-        if (i % 9 == 0):
-            num = int(item)
-            props[num].owned = 0
-        elif (i % 9 == 1):
-            props[num].color = item
-        elif (i % 9 == 2):
-            props[num].price = int(item)
-            if (props[num].color == 'rail' or props[num].color == 'utility'):
-                i += 6
-        elif (i % 9 == 3):
-            props[num].rent = int(item)
-        elif (i % 9 == 4):
-            props[num].house1 = int(item)
-        elif (i % 9 == 5):
-            props[num].house2 = int(item)
-        elif (i % 9 == 6):
-            props[num].house3 = int(item)
-        elif (i % 9 == 7):
-            props[num].house4 = int(item)
-        else:
-            props[num].hotel = int(item)
-        i += 1
-    propFile.close()
-
-
+    with open(propFile) as f:
+        data = json.load(f)
+    props = data['properties']
 
 def setup_players():
   players = []
-  for i in xrange(noOfPlayers):
+  for i in range(noOfPlayers):
     players.append(Player())
     players[i].number = i
     players[i].piece = pieces[i]
@@ -106,7 +67,8 @@ def setup_players():
     players[i].position = 0
     print("Player " + str(i+1) + " will use the " + players[i].piece.lower() + ".")
 
-def main():
+
+if __name__ == '__main__':
     print
     round = 0
     consecutive_doubles = 0
@@ -193,7 +155,7 @@ def main():
           if (current.money < props[current.position].price):
               print("Player " + str(current.number+1) + " has insufficient funds to buy " + spaces[current.position])
           else:
-            props[current.position].owned = current.number + 1 
+            props[current.position].owned = current.number + 1
             print("Player " + str(current.number+1) + " buys " + spaces[current.position])
             current.money -= props[current.position].price
             showMoney()
@@ -228,4 +190,3 @@ def main():
 
 def showMoney():
     print("Player " + str(current.number+1) + " now has $" + str(current.money) + ".")
-        

@@ -1,13 +1,11 @@
 import json
 
 def test():
-    filename = 'properties.json'
+    filename = 'data/properties.json'
     with open(filename) as f:
         data = json.load(f)
     props = data['properties']
-    for d in props:
-        print(d)  
-    print(props['Short Line R.R.'])    
+    print(props[14])    
 
 if __name__ == '__main__':
     test()
