@@ -5,16 +5,6 @@ from random import randint, shuffle
 #noOfPlayers = int(raw_input('How many players? (2-8) '))
 NUMBER_OF_PLAYERS = 10
 
-class Property(object):
-    def __init__(self, x):
-        self.name = x[0]
-        self._isOwned = False
-
-class Player(object):
-    def __init__(self):
-        self.props = []
-        self.money = 1500
-
 class GameBoard(object):
     pass
 
