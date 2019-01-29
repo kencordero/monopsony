@@ -1,4 +1,4 @@
-from models.property import Property
+from property import Property
 
 class Player(object):
     def __init__(self):
