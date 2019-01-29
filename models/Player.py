@@ -6,5 +6,5 @@ class Player(object):
         self.money = 1500
 
     def addProperty(self, property):
-        if type(property) is not a Property:
+        if type(property) is not Property:
             raise ValueError('Not a valid property!')
