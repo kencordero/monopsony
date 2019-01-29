@@ -1,4 +1,4 @@
-import Property from Property
+from models.property import Property
 
 class Player(object):
     def __init__(self):
@@ -6,5 +6,5 @@ class Player(object):
         self.money = 1500
 
     def addProperty(self, property):
-        if type(property) is a Property:
+        if type(property) is not a Property:
             raise ValueError('Not a valid property!')
