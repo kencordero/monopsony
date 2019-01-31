@@ -1,4 +1,5 @@
 from models.property import Property
+from data_loader import load_data
 
 if __name__ == '__main__':
-    pass
+    load_data()

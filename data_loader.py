@@ -2,40 +2,44 @@ import json
 from random import shuffle
 
 def load_pieces():
-    pcsFile = 'pieces.json'
+    pcsFile = 'data/pieces.json'
     with open(pcsFile) as f:
         data = json.load(f)
     pieces = data['pieces']
     shuffle(pieces)
+    return pieces
 
 def load_spaces():
-    spcFile = 'spaces.json'
+    spcFile = 'data/spaces.json'
     with open(spcFile) as f:
         data = json.load(f)
-    spaces = data['spaces']
+    return data['spaces']
 
 def load_CommunityChest():
-    CCfile = "community_chest.json"
+    CCfile = "data/community_chest.json"
     with open(CCfile) as f:
         data = json.load(f)
     CC = data['cards']
     shuffle(CC)
+    return CC
 
 def load_Chance():
-  chanceFile = "Chance.txt"
-  chanceCards = dict()
-  i = 0
+  chanceFile = "data/chance.json"
   with open(chanceFile) as f:
-    for item in f:
-      item = item.strip()
-      chanceCards[item] = i
-      i += 1
-  C = chanceCards.keys()
+      data = json.load(f)
+  C = data['cards']
   shuffle(C)
+  return C
 
 def load_properties():
-    propFile = "properties.json"
-    i = 0
+    propFile = "data/properties.json"
     with open(propFile) as f:
         data = json.load(f)
-    props = data['properties']
+    return data['properties']
+
+def load_data():
+    pieces = load_pieces()
+    spaces = load_spaces()
+    CommunityChest = load_CommunityChest()
+    Chance = load_Chance()
+    properties = load_properties()
