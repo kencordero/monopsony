@@ -1,4 +1,6 @@
-from ..data_loader import (load_pieces, load_spaces, load_deck, load_properties)
+import sys
+sys.path.append('../')
+from data.data_loader import (load_pieces, load_spaces, load_deck, load_properties)
 
 
 class Game(object):
