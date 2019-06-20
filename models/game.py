@@ -1,10 +1,12 @@
 import sys
-from ..data.data_loader import (load_pieces, load_spaces, load_deck, load_properties)
+from ..data.data_loader import load
 
+MAX_PLAYER_COUNT = 10
 
 class Game(object):
     def __init__(self):
-        self.pieces = load_pieces()
-        self.spaces = load_spaces()
-        self.cards = {'CommunityChest': load_deck('community_chest'), 'Chance': load_deck('chance')}
-        self.properties = load_properties()
+        self.pieces = load('pieces')
+        self.spaces = load('spaces')
+        self.cards = {'CommunityChest': load('community_chest', 'cards'), 'Chance': load('chance', 'cards')}
+        self.properties = load('properties')
+        self.config = load('config')

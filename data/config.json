@@ -1,0 +1,6 @@
+{ "config": 
+    {
+        "playerCount": 4,
+        "startingDollarAmount": 1500
+    }
+}
