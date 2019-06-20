@@ -1,10 +1,9 @@
 import sys
-sys.path.append('../')
-from data.data_loader import (load_pieces, load_spaces, load_deck, load_properties)
+from ..data.data_loader import (load_pieces, load_spaces, load_deck, load_properties)
 
 
 class Game(object):
-    def __init__(self, x):
+    def __init__(self):
         self.pieces = load_pieces()
         self.spaces = load_spaces()
         self.cards = {'CommunityChest': load_deck('community_chest'), 'Chance': load_deck('chance')}

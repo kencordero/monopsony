@@ -3,7 +3,7 @@ from random import shuffle
 
 
 def load_pieces():
-    filename = 'data/pieces.json'
+    filename = 'monopsony/data/pieces.json'
     with open(filename) as f:
         data = json.load(f)
     pieces = data['pieces']
@@ -12,14 +12,14 @@ def load_pieces():
 
 
 def load_spaces():
-    filename = '/data/spaces.json'
+    filename = 'monopsony/data/spaces.json'
     with open(filename) as f:
         data = json.load(f)
     return data['spaces']
 
 
 def load_deck(deck_type):
-    deck_file = '/data/{}.json'.format(deck_type)
+    deck_file = 'monopsony/data/{}.json'.format(deck_type)
     with open(deck_file) as f:
         data = json.load(f)
     deck = data['cards']
@@ -28,7 +28,7 @@ def load_deck(deck_type):
 
 
 def load_properties():
-    filename = '/data/properties.json'
+    filename = 'monopsony/data/properties.json'
     with open(filename) as f:
         data = json.load(f)
     return data['properties']
