@@ -1,5 +1,4 @@
 import json
-from random import shuffle
 
 
 def load(filename, nodename=None):
