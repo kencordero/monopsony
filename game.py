@@ -1,6 +1,6 @@
 import sys
 from random import shuffle
-from ..data.data_loader import load
+from data_loader import load
 
 MAX_PLAYER_COUNT = 10
 

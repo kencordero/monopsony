@@ -1,6 +1,9 @@
+import sys
+sys.path.insert(0,'..') 
+
 import json
 import unittest
-from ..models.game import Game
+from game import Game
 
 class TestDataLoad(unittest.TestCase):    
     @classmethod

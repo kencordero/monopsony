@@ -1,5 +1,6 @@
-from data.data_loader import load_data
+from game import Game
 
 if __name__ == '__main__':
-    load_data()
+    game = Game()
+
     
