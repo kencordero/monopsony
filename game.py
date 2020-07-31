@@ -1,5 +1,6 @@
 import sys
-from ..data.data_loader import load
+from random import shuffle
+from data_loader import load
 
 MAX_PLAYER_COUNT = 10
 
@@ -10,3 +11,6 @@ class Game(object):
         self.cards = {'CommunityChest': load('community_chest', 'cards'), 'Chance': load('chance', 'cards')}
         self.properties = load('properties')
         self.config = load('config')
+        shuffle(self.pieces)
+        shuffle(self.cards['CommunityChest'])
+        shuffle(self.cards['Chance'])
